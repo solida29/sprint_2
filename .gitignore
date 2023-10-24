@@ -11,4 +11,4 @@ node_modules
 .env
 
 # Ignore pruebas files
-./src/pruebas
+src/pruebas

@@ -7,12 +7,3 @@ export default function debounce(callback: Function, delay: number) {
         }, delay)
     }
 }
-
-// export function sayHello() {
-//     console.log("Hello world");
-// }
-
-// export const debouncedHello = debounce(sayHello, 1000);
-
-// debouncedHello();
-// debouncedHello();

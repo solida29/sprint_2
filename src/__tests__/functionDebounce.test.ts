@@ -1,6 +1,4 @@
 import debounce from  "../functionDebounce"
-// import sayHello from  "../functionDebounce"
-// import debouncedHello from "../functionDebounce"
 
 jest.useFakeTimers();
 it("calls the mock function callback after 1 second via advanceTimersByTime", () => {
@@ -13,17 +11,15 @@ it("calls the mock function callback after 1 second via advanceTimersByTime", ()
   expect(functionCallback).toHaveBeenCalledTimes(1);
 });
 
+//test 2
 
-it("calls the sayHello function callback after 1 second", () => {
-  function sayHello() {
-    console.log("Hello world");
-  }
-  const time = Date.now();
+test("sayHello function after 1 second", () => {
+  const sayHello = jest.fn(() => console.log("Hello world")); //pasamos la funcion por el mock de jest
   const debouncedHello = debounce(sayHello, 1000);
 
   debouncedHello();
-
+  expect(sayHello).toHaveBeenCalledTimes(0);
+  jest.advanceTimersByTime(1000); //permet de mettre un chrono a 1000 ms
   expect(sayHello).toHaveBeenCalledTimes(1);
-  expect(sayHello).toBeGreaterThanOrEqual(1000);
 
 });
