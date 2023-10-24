@@ -10,5 +10,9 @@ node_modules
 # Ignore files related to API keys
 .env
 
-# Ignore pruebas files
+
+# Ignore dist folder
+dist
+
+# Ignore pruebas folder
 src/pruebas

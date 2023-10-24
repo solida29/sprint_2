@@ -6,8 +6,8 @@ it("calls the mock function callback after 1 second via advanceTimersByTime", ()
   const debouncedMock = debounce(functionCallback, 1000);
 
   debouncedMock();
-  jest.advanceTimersByTime(1100);
-
+  expect(functionCallback).toHaveBeenCalledTimes(0);
+  jest.advanceTimersByTime(1000);
   expect(functionCallback).toHaveBeenCalledTimes(1);
 });
 
