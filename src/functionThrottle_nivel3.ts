@@ -11,13 +11,13 @@ function throttle (callback: Function, delay: number) {
     }
   }
 
-function hello() {
-    console.log("Hello!");
+function helloT() {
+    console.log("Hello with throttle!");
     let answer = <HTMLElement>document.getElementById('result');
-    answer.innerHTML += "Hello!" + "<br>";
+    answer.innerHTML += "Hello with throttle!" + "<br>";
 }
 
-const throttleGreet = throttle(hello, 1000);
+const throttleGreet = throttle(helloT, 1000);
 
 let consult = <HTMLElement>document.getElementById('result');
     consult.addEventListener("click", throttleGreet);

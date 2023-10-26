@@ -9,13 +9,13 @@ function debounce(callback: Function, delay: number) {
     }
 }
 
-function hello() {
-    console.log("Hello!");
+function helloD() {
+    console.log("Hello with debounce!");
     let answer = <HTMLElement>document.getElementById('result');
-    answer.innerHTML += "Hello!" + "<br>";
+    answer.innerHTML += "Hello with debounce!" + "<br>";
 }
 
-const debouncedGreet = debounce(hello, 1000);
+const debouncedGreet = debounce(helloD, 1000);
 
 let read = <HTMLElement>document.getElementById('result');
     read.addEventListener("click", debouncedGreet);
