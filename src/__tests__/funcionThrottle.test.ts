@@ -1,7 +1,7 @@
 import throttle from  "../functionThrottle"
 
 jest.useFakeTimers();
-it("calls the mock function callback after 1 second via advanceTimersByTime", () => {
+test("throttle with the mock function callback after 1 second via advanceTimersByTime", () => {
   const functionCallback = jest.fn()
   const throttleMock = throttle(functionCallback, 1000);
 
