@@ -1,4 +1,4 @@
-name: CI/CD ToDolist
+name: CI/CD Sprint2
 
 on: 
   push:
