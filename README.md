@@ -1,5 +1,7 @@
+# Sprint 2
+https://github.com/solida29/sprint_2
+
 ## Entrega 2.1: Funció Debounce
-https://github.com/solida29/sprint_2-2_FunctionDebounce
 
 ### Descripció
 Una funció debounce és una tècnica per controlar la freqüència d'execució d'una funció en resposta a esdeveniments com ara clics, desplaçaments o altres accions de l'usuari. L'objectiu d'aquesta funció és evitar que s'executi massa ràpida i repetidament, sobretot quan els esdeveniments es produeixen amb molta freqüència. 
