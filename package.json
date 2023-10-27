@@ -18,6 +18,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "^9.2.11",
+    "inquirer-press-to-continue": "^1.2.0"
   }
 }
