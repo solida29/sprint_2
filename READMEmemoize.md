@@ -34,3 +34,28 @@ Aprendre i practicar conceptes clau de JavaScript com ara funcions de retorn, cl
 
 ### functionMemoize.ts
 Está en la carpeta src.
+
+He hecho una función memoize para una function que permite calcular un número num al cuadrado.
+
+- Se almamcenan los resultados en la memoria cache, que es un array. La posición en el array coincide con num.
+
+- Primero se busca si en la posición num existe un resultado o no con: <br>
+cache.hasOwnProperty(num)
+
+- Si existe, devuelve el resultado guardado en cache.
+
+- Si no, hace el calculo, lo almacena en cache y devuelve el resultado.
+
+### Nivel 1: TDD
+scr/__tests__/functionMemoize.test.ts
+
+El test se hace con num = 4.
+- Se espera primero el resultado de 4 al cuadrado = 16.
+- Después se pide el resultado por la posición en cache.
+- El último test se pide el resultado de la posición 0 en el array que todavía no existe, y es undefined.
+
+### Nivel 2: CLI
+...
+
+### Nivel 3: front-end
+...
