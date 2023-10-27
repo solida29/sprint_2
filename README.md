@@ -57,4 +57,4 @@ Debounce.html (vinculado al js que está transpilado de functionDebounce_nivel3.
 
 <hr>
 
-# Entrega 2.2: Funció Throttle
+## Entrega 2.2: Funció Throttle
