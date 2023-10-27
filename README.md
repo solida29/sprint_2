@@ -1,6 +1,5 @@
-# Srpint 2: Debounce, Throttle y Memoize
-
 ## Entrega 2.1: Funció Debounce
+https://github.com/solida29/sprint_2-2_FunctionDebounce
 
 ### Descripció
 Una funció debounce és una tècnica per controlar la freqüència d'execució d'una funció en resposta a esdeveniments com ara clics, desplaçaments o altres accions de l'usuari. L'objectiu d'aquesta funció és evitar que s'executi massa ràpida i repetidament, sobretot quan els esdeveniments es produeixen amb molta freqüència. 
@@ -54,7 +53,3 @@ Debounce.html (vinculado al js que está transpilado de functionDebounce_nivel3.
 - Hay un botón "Say Hello" vinculado a la función debounceGreet() que imprime el mensaje "Hello with debounce!" cuando hacemos click.
 - Aparece con un debounce 1000 ms.
 - Se puede comprobar en la consola también.
-
-<hr>
-
-## Entrega 2.2: Funció Throttle
