@@ -9,6 +9,6 @@ test("memoizeGetSquare: cache[4] = 16", () => {
     expect(cache[4]).toBe(16);
 })
 
-test("memoizeGetSquare: cache[4] = 16", () => {
+test("memoizeGetSquare: cache[0] = undefined", () => {
     expect(cache[0]).toBe(undefined);
 })
